@@ -37,7 +37,7 @@ const Layout = (props) => {
                 <Route exact path="/" render={()=><StoriesContainer url="https://hn.algolia.com/api/v1/search_by_date?tags=story&page="/>} ></Route>
                 <Route exact path="/news" render={()=><StoriesContainer url="https://hn.algolia.com/api/v1/search_by_date?tags=story&page="/>} ></Route>
                 <Route exact path="/newest" render={()=><StoriesContainer url="https://hn.algolia.com/api/v1/search_by_date?tags=story&page="/>} ></Route>
-                <Route exact path="/front" render={()=><StoriesContainer url="https://hn.algolia.com/api/v1/search_by_date?tags=story&page= "/>} ></Route>
+                <Route exact path="/front" render={()=><StoriesContainer url="https://hn.algolia.com/api/v1/search_by_date?tags=story&page="/>} ></Route>
                 <Route exact path="/newcomments" render={()=><div>Need to Implement Comment Section</div>} ></Route>
                 <Route exact path="/ask" render={()=><div>Need to Implement ask Section</div>} ></Route>
                 <Route exact path="/show" render={()=><div>Need to Implement Show Section</div>} ></Route>
