@@ -1,0 +1,21 @@
+.StoriesContainer {
+    background-color: beige;
+
+}
+
+.StoriesContainer table tbody{
+    margin: 0;
+    padding: 0;
+}
+
+.More{
+    text-align: start;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.More:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+

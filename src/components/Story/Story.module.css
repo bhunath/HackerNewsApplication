@@ -1,0 +1,44 @@
+.Story {
+    text-align: start;
+    box-sizing: border-box;
+}
+
+
+
+.VoteArrow {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    /* margin: 3px 2px 6px; */
+    background: url(https://news.ycombinator.com/grayarrow.gif) no-repeat;   
+}
+
+.VoteArrow:hover {
+    cursor:pointer;
+}
+
+.Hide:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Comments {
+    /* width: 1%; */
+    margin: 0;
+    padding: 0px;
+}
+
+.Title {
+    width: 90%;
+}
+
+.MetaInfo{
+    text-align: start;
+}
+
+.Story small { 
+    font-size: smaller;
+}
+
+
+

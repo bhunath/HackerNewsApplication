@@ -1,0 +1,67 @@
+
+.Main {
+    margin-top: 0px;
+}
+
+.Header {
+    margin-top: .5%;
+    background-color: #ff6600;
+    text-align: start;
+    height: 20%;
+}
+
+.Header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.Header li {
+    display: inline-block;
+    margin: 1px 4px;
+    line-height: 12pt;
+    padding-bottom: .2%;
+    
+}
+
+.Header a {
+    text-decoration: none;
+    text-align:center;
+}
+
+.Header a:hover{
+    cursor: pointer;
+}
+
+.Logo{
+    border: 1px solid white;
+    height: 18px;
+    width: 18px;
+}
+
+.Login{
+    text-align: right;
+    padding-left: 50%;
+}
+
+
+
+
+@media (max-width:700px){
+    .Login{
+        text-align: right;
+        padding-left: 10%;
+    }
+
+}
+
+@media (max-width:500px){
+    .HackerNews{
+        width: 90%;
+    }
+
+    .Login{
+        padding-left: 10%;
+    }
+}
