@@ -16,10 +16,12 @@ const Layout = (props) => {
         <AuthContext.Provider value={ {username:loginState.username, authenticated : loginState.authenticated }}>
             {
                 <React.Fragment>
-                <header className={classes.Header}>
+                <a href="#header" style={{display:'NONE'}}></a>
+                <a href="#main" style={{display:'NONE'}}></a>
+                <header className={classes.Header} id="header">
                     <nav>
                         <ul>
-                            <li className={classes.Logo}><a href="/"><img src={HackerNewsLogo}></img></a></li>
+                            <li className={classes.Logo}><a href="/"><img src={HackerNewsLogo} alt="HN"></img></a></li>
                             <li className={classes.HackerNews}><a href="/news"><strong>Hacker News </strong></a></li>
                             <li ><a href="/newest">new |</a></li>
                             <li><a href="/front">past |</a></li>

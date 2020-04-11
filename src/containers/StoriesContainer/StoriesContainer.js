@@ -114,7 +114,7 @@ class StoriesContainer extends Component {
         }
         return (
             <React.Fragment>
-                <div className={classes.StoriesContainer}>
+                <div className={classes.StoriesContainer} id="main">
                     <table>
                         <tbody>
                             {stories}

@@ -8,7 +8,7 @@ const footer = (props) => {
                 GuildeLines|FAQ|Support | API | Security | Lists | Bookmarklet | Legal | Apply to YC | Contact
         </div>
             <div className={classes.SearchBox}>
-                <div>Search: <input type='text'></input></div>
+                <label>Search: <input type='text'></input></label>
             </div>
         </div>
     );
