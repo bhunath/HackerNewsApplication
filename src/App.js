@@ -5,14 +5,9 @@ import StoriesContainer from './containers/StoriesContainer/StoriesContainer'
 import {BrowserRouter} from 'react-router-dom'
 
 
-function App() { 
-
-
+const  app = (props)=> { 
   return (
-    
-
     <BrowserRouter>
-
     <div className={classes.App}>
       <Layout></Layout>
     </div>
@@ -20,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default app;
